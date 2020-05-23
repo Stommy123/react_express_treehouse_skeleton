@@ -44,7 +44,7 @@ const courses = {
 
 ```
 const handleInputChange = field => event => {
-  this.setState({ [field]: event.target.value })
+  setState({ [field]: event.target.value })
 }
 ```
 
@@ -82,15 +82,15 @@ import { Form, NavBar, Button } from './components'
 
 ```
   // then()
-  fetchData = () => {
+  const fetchData = () => {
     axios.get('INSERT_URL_HERE')
-    .then(response => this.setState({ data: response.data }))
+    .then(response => setState({ data: response.data }))
   }
 
   // async await
-  fetchData = async () => {
+  const fetchData = async () => {
     const response = await axios.get('INSERT_URL_HERE)
-    this.setState({ data: response.data })
+    setState({ data: response.data })
   }
 ```
 
