@@ -1,3 +1,28 @@
+# Multi Page React / Express Application - Treehouse Clone
+
+## Starting the app
+
+- Make sure you open two seaparate terminal tabs
+
+### Client Tab
+
+- `cd client`
+- `yarn`
+- `yarn start`
+- Make sure you see "Hello World" with a green background
+
+### Server tab
+
+- `cd server`
+- `yarn`
+- `yarn start`
+- Make sure you see "It worked!" outputted in the termianl
+
+#### NOTE
+
+- You will need to make sure you install nodemon globally for the server script to work
+- To do this run `npm install nodemon -g`
+
 ## Useful links for syntax / conventions that may be unfamiliar
 
 ### Square bracket property accessor for objects
